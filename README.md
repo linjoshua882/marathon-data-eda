@@ -11,6 +11,7 @@ Data used for this assessment is taken from the results of the 2006 Pike’s Pea
 As a part of the data cleaning process, I created a new dataframe from the data given for this assessment to simplify the exploratory process to answer the exercise questions. 
 
 |Feature|Type|Description|
+|---|---|---|
 |**place**|*integer*|The order in which each racer finished relative to racers of the same gender|
 |**div**|*integer*|Divisions that comprise of racers of the same gender and age group|
 |**name** |*object*|Racer names|

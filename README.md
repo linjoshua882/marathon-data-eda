@@ -110,8 +110,6 @@ With both gun time and net time, we see a visibly evident stray from the normal 
 
 Based on this comparison qqplot, we see that the distribution for net time strays away from normal distribution on the right end slightly more than the gun time distribution does.
 
-![Precross Scatterplot](assets/scatter_precross.png)
-
 ### 3. How much time separates Chris Doe from the top 10 percentile of racers in the same division?
 
 Chris Doe would need to improve his time by 484 seconds or 8 minutes to be in the top 10 percentile of runners in his division. The top 10 percentile of runners are, on average, 23.29% faster than Chris Doe when comparing net time.

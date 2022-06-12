@@ -27,7 +27,7 @@ As a part of the data cleaning process, I created a new dataframe from the data 
 
 ## Results Summary
 
-1. What are the mean, median, mode, and range of the race results for all racers by gender?
+### 1. What are the mean, median, mode, and range of the race results for all racers by gender?
 
 **Mean.** 
 	Female Mean: 3506 seconds or 58.4 minutes
@@ -55,7 +55,7 @@ Disclaimer: There are multiple modes by gender due to the nature of the problem.
 	•	3209 seconds or 53.48 minutes
 	•	3540 seconds or 59 minutes
 
-Male Modes:
+	Male Modes:
 	•	2128 seconds or 35.46 minutes
 	•	2825 seconds or 47.08 minutes
 	•	2843 seconds or 47.38 minutes
@@ -81,7 +81,7 @@ Range between genders is relatively similar, only being 120 seconds or 2 minutes
 
 Using range, x minimums, and x maximums as metrics, this supports our understanding that men were generally faster than women. We also see that after about 4500 seconds or 75 minutes (1 hour 15 minutes), that’s where we tend to see much less concentration of runners finishing the race.
 
-2. Analyze the difference between gun and net time race results.
+### 2. Analyze the difference between gun and net time race results.
 
 **Mean differences.**
 Gun Time Mean: 3474.89 seconds or 57.9 minutes
@@ -112,13 +112,13 @@ Based on this comparison qqplot, we see that the distribution for net time stray
 
 ![Precross Scatterplot](assets/scatter_precross.png)
 
-3. How much time separates Chris Doe from the top 10 percentile of racers in the same division?
+### 3. How much time separates Chris Doe from the top 10 percentile of racers in the same division?
 
 Chris Doe would need to improve his time by 484 seconds or 8 minutes to be in the top 10 percentile of runners in his division. The top 10 percentile of runners are, on average, 23.29% faster than Chris Doe when comparing net time.
 
 ![Chris Doe vs. Top 10 Percentile](assets/bar_chrisdoe.png)
 
-4. Compare the race results of each division.
+### 4. Compare the race results of each division.
 
 Our earlier scatter plot which showed time between race start (gun time) and crossing the start line (net time) with race placement demonstrated that there is a decent correlation between the clusters of runners allowed to cross the starting line with placement. However, there is also an element of speed, age, and gender involved as, with just net time, we still see the same patterns.
 

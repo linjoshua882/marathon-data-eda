@@ -1,22 +1,22 @@
-## Exercise questions:
+## Exercise questions
 - What are the mean, median, mode, and range of the race results for all racers by gender?
 - Analyze the difference between gun and net time race results.
 - How much time separates Chris Doe from the top 10 percentile of racers of the same division?
 - Compare the race results of each division.
 
-## Data Background:
+## Data Background
 Data used for this assessment is taken from the results of the 2006 Pike’s Peak 10k Race.
 
-## Data Dictionary:
+## Data Dictionary
 As a part of the data cleaning process, I created a new dataframe from the data given for this assessment to simplify the exploratory process to answer the exercise questions. 
 
-|Feature|Type|Description
-|**place**|*integer*|The order in which each racer finished relative to racers of the same gender
-|**div**|*integer*|Divisions that comprise of racers of the same gender and age group
-|**name** |*object*|Racer names
-|**gun_time_sec**|*integer*|Elapsed time from the formal start of the race when the racer crossed the finish line in seconds
-|**net_time_sec**|*integer*|Elapsed time from when the racer crossed the starting line and when the racer crossed the finish line in seconds
-|**is_male**|*categorical*|Classifying integer to indicate the gender of the racer (0 = female, 1 = male)
+|Feature|Type|Description|
+|**place**|*integer*|The order in which each racer finished relative to racers of the same gender|
+|**div**|*integer*|Divisions that comprise of racers of the same gender and age group|
+|**name** |*object*|Racer names|
+|**gun_time_sec**|*integer*|Elapsed time from the formal start of the race when the racer crossed the finish line in seconds|
+|**net_time_sec**|*integer*|Elapsed time from when the racer crossed the starting line and when the racer crossed the finish line in seconds|
+|**is_male**|*categorical*|Classifying integer to indicate the gender of the racer (0 = female, 1 = male)|
 
 ## Methods
 

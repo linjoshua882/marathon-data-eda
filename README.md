@@ -30,16 +30,16 @@ As a part of the data cleaning process, I created a new dataframe from the data 
 ### 1. What are the mean, median, mode, and range of the race results for all racers by gender?
 
 **Mean.** 
-	Female Mean: 3506 seconds or 58.4 minutes
-	Male Mean: 3127 seconds or 52.11 minutes
+- Female Mean: 3506 seconds or 58.4 minutes
+- Male Mean: 3127 seconds or 52.11 minutes
 
 ![Mean Histogram](assets/hist_mean.png)
 
 Women, on average, took approximately 6.6 minutes or 400 seconds longer than men to finish the race.
 
 **Median.** 
-	Female Median: 3469 seconds or 57.81 minutes
-	Male Median: 3082 seconds or 51.36 minutes
+- Female Median: 3469 seconds or 57.81 minutes
+- Male Median: 3082 seconds or 51.36 minutes
 
 ![Median Histogram](assets/hist_median.png)
 
@@ -72,8 +72,8 @@ Disclaimer: There are multiple modes by gender due to the nature of the problem.
 The largest concentration of runners finished the race between 35 and 59 minutes after crossing the starting line.
 
 **Range.**
-	Female Range: 4431 seconds or 73.85 minutes
-	Male Range: 4311 seconds or 71.85 minutes
+- Female Range: 4431 seconds or 73.85 minutes
+- Male Range: 4311 seconds or 71.85 minutes
 
 ![Range Scatterplot](assets/scatter_range.png)
 
@@ -84,14 +84,14 @@ Using range, x minimums, and x maximums as metrics, this supports our understand
 ### 2. Analyze the difference between gun and net time race results.
 
 **Mean differences.**
-Gun Time Mean: 3474.89 seconds or 57.9 minutes
-Net Time Mean: 3303.97 seconds or 55 minutes
+- Gun Time Mean: 3474.89 seconds or 57.9 minutes
+- Net Time Mean: 3303.97 seconds or 55 minutes
 
 The average difference between gun_time and net_time is approximately 171 seconds or 2.85 minutes. This is also the average wait time behind the starting line after the race has started.
 
 **Range differences.**
-Gun Time Range: 1728 seconds - 6631 seconds or 28.8 minutes - 110 minutes
-Net Time Range: 1727 seconds - 6409 seconds or 28.7 minutes - 106 minutes
+- Gun Time Range: 1728 seconds - 6631 seconds or 28.8 minutes - 110 minutes
+- Net Time Range: 1727 seconds - 6409 seconds or 28.7 minutes - 106 minutes
 
 Based on the differences in range between gun time and net time, the initial difference is very small but as the race goes on, the difference becomes up to 4 minutes of waiting behind the starting line after the race has already started.
 
